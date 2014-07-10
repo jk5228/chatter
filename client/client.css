@@ -1,0 +1,124 @@
+html {
+    padding: 10px;
+    font-family: 'Titillium Web', Verdana, sans-serif;
+    min-width: 300px;
+    -webkit-touch-callout: text;
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+
+#login-buttons * {
+    font-family: 'Titillium Web', Verdana, sans-serif !important;
+}
+
+.login-button {
+	background-color: #3293FA !important;
+	border: none !important;
+}
+
+#container {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+h1 {
+	text-align: center;
+}
+ 
+.login-buttons-dropdown-align-right {
+    float: right;
+}
+
+textarea {
+	resize: vertical;
+	width: 100%;
+	font-size: 1.3em;
+	border: none;
+	outline: none;
+	margin-bottom: 1em;
+}
+
+#slide {
+	position: relative;
+	width: 100%;
+	background-color: #FFD9EA;
+	border-radius: 10px;
+	margin-bottom: 1em;
+	padding: 20px 0px 20px 0px;
+}
+
+#left-panel, #right-panel {
+	height: 100%;
+}
+
+#clear {
+	font-size: 1.3em;
+	width: inherit;
+	display: inline;
+	color: white;
+	text-align: center;
+	background-color: #FA2082;
+	padding: 20px;
+	border-radius: 10px;
+	cursor: -webkit-grab;
+	cursor: grab;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.message {
+	position: relative;
+	background-color: #3293FA;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	margin-bottom: 1em;
+	-webkit-touch-callout: all;
+	-webkit-user-select: all;
+	-khtml-user-select: all;
+	-moz-user-select: all;
+	-ms-user-select: all;
+	user-select: all;
+}
+
+.content {
+	font-size: 1.3em;
+}
+
+.name {
+	text-align: right;
+	line-height: 0.5em;
+}
+
+.close {
+	background-image: url('close.png');
+	background-size: contain;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+@media all and (max-width: 50em) {
+	#container {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}

@@ -1,0 +1,9 @@
+<template name="message">
+  <div class="message">
+    <p class="content">{{message}}</p>
+    <p class="name">{{name}}</p>
+    {{#if ownsComment}}
+      <div class="close"></div>
+    {{/if}}
+  </div>
+</template>

@@ -1,0 +1,11 @@
+<template name="messages">
+  {{#if currentUser}}
+    <div id="slide">
+      <div id="clear">Delete All</div>
+    </div>
+  {{/if}}
+  
+  {{#each messages}}
+    {{> message}}
+  {{/each}}
+</template>
